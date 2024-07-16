@@ -130,6 +130,10 @@ button {
   .btn-fechar {
     height: 25px;
     width: 5px;
-    color: red;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
