@@ -128,7 +128,8 @@ button {
   }
 
   .btn-fechar {
-    height: 20px;
-    width: 15px;
+    height: 25px;
+    width: 5px;
+    color: red;
   }
 }
