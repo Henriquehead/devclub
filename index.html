@@ -1,68 +1,73 @@
-<!DOCTYPE html> <!-- VERSÃO DO HTML -->
-<html lang="pt-br"> <!-- TAG HTML E LINGUA DO SITE -->
+<!DOCTYPE html>
+<!-- VERSÃO DO HTML -->
+<html lang="pt-br">
+  <!-- TAG HTML E LINGUA DO SITE -->
 
-<head> <!-- CONFIGURAÇÕES DO SITE -->
-    <meta charset="UTF-8"> <!-- PADRÃO DE CARACTERES DO SITE -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- CONFIGURAÇÕES DO SITE -->
+    <meta charset="UTF-8" />
+    <!-- PADRÃO DE CARACTERES DO SITE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- SITE COMPATÍVEL COM CELULAR E COMPUTADOR -->
-    <title>DevClub - Tesla</title> <!-- TITULO DO SITE -->
-    <link rel="stylesheet" href="style.css">
+    <title>DevClub - Tesla</title>
+    <!-- TITULO DO SITE -->
+    <link rel="stylesheet" href="style.css" />
     <script defer src="./script.js"></script>
-</head>
+  </head>
 
-<body >
+  <body>
     <ul>
-        <li class="item">
-            <img src="./assets/logo.png" alt="logo da tesla" class="logo">
+      <li class="item">
+        <img src="./assets/logo.png" alt="logo da tesla" class="logo" />
 
-            <div class="info-carro">
-                <video src="./assets/model-y.mp4" muted loop autoplay></video>
-                <h1>Model Y</h1>
-                <p class="subtitulo">Parcelar a partir de 499 dólares</p>
-            </div>
-            <div class="rodape">
-                <button onclick="showForm()">Comprar Agora</button>
-                <button class="test-drive">Faça um Test-Drive</button>
-                <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
-            </div>
-        </li>
-        <li class="item">
-
-            <div class="info-carro">
-                <img src="./assets/model-3.png" alt="model-3" class="img-tesla">
-                <h1>Model 3</h1>
-                <p class="subtitulo">Compre Agora o seu Tesla</p>
-            </div>
-
-        </li>
-
-        <li class="item">
-
-            <div class="info-carro">
-                <img src="./assets/model-x.png" alt="model-x" class="img-tesla">
-                <h1>Model X</h1>
-                <p class="subtitulo">Compre Agora o seu Tesla</p>
-            </div>
-
-        </li>
-
-        <li class="item">
-            <!-- <img src="./assets/logo.png" alt="logo da tesla" class="logo"> -->
-
-            <div class="info-carro">
-                <img src="./assets/model-s.png" alt="model-s" class="img-tesla">
-                <h1>Model S</h1>
-                <p class="subtitulo">Compre Agora o seu Tesla</p>
-            </div>
-
-        </li>
-
-        <div class="formulario">
-            <button class="btn-fechar" onclick="hideForm()"> Fechar </button>
-            <script type="text/javascript" src="https://form.jotform.com/jsform/241971661647061"></script>
+        <div class="info-carro">
+          <video src="./assets/model-y.mp4" muted loop autoplay></video>
+          <h1>Model Y</h1>
+          <p class="subtitulo">Parcelar a partir de 499 dólares</p>
         </div>
+        <div class="rodape">
+          <button onclick="showForm()">Comprar Agora</button>
+          <a href="https://form.jotform.com/241973146701658" target="_blank">
+              <button class="test-drive">Faça um Test-Drive</button>
+          </a>
+          <p class="texto-rodape">
+            Não garantimos seu veículo imediatamente.Consultar estoque*
+          </p>
+        </div>
+      </li>
+      <li class="item">
+        <div class="info-carro">
+          <img src="./assets/model-3.png" alt="model-3" class="img-tesla" />
+          <h1>Model 3</h1>
+          <p class="subtitulo">Compre Agora o seu Tesla</p>
+        </div>
+      </li>
 
+      <li class="item">
+        <div class="info-carro">
+          <img src="./assets/model-x.png" alt="model-x" class="img-tesla" />
+          <h1>Model X</h1>
+          <p class="subtitulo">Compre Agora o seu Tesla</p>
+        </div>
+      </li>
+
+      <li class="item">
+        <!-- <img src="./assets/logo.png" alt="logo da tesla" class="logo"> -->
+
+        <div class="info-carro">
+          <img src="./assets/model-s.png" alt="model-s" class="img-tesla" />
+          <h1>Model S</h1>
+          <p class="subtitulo">Compre Agora o seu Tesla</p>
+        </div>
+      </li>
+
+      <div class="formulario">
+        <button class="btn-fechar" onclick="hideForm()">Fechar</button>
+        <script
+          type="text/javascript"
+          src="https://form.jotform.com/jsform/241971661647061"
+        ></script>
+      </div>
     </ul>
-</body>
-
+  </body>
 </html>
