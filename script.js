@@ -1,7 +1,7 @@
 let formulario = document.querySelector(".formulario");
 
 function showForm(){
-    formulario.style.left = "50%"
+    formulario.style.left = "20%"
 }
 
 function hideForm(){
