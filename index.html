@@ -7,9 +7,10 @@
     <!-- SITE COMPATÍVEL COM CELULAR E COMPUTADOR -->
     <title>DevClub - Tesla</title> <!-- TITULO DO SITE -->
     <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
 </head>
 
-<body>
+<body >
     <ul>
         <li class="item">
             <img src="./assets/logo.png" alt="logo da tesla" class="logo">
@@ -20,7 +21,7 @@
                 <p class="subtitulo">Parcelar a partir de 499 dólares</p>
             </div>
             <div class="rodape">
-                <button>Comprar Agora</button>
+                <button onclick="showForm()">Comprar Agora</button>
                 <button class="test-drive">Faça um Test-Drive</button>
                 <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
             </div>
@@ -55,6 +56,11 @@
             </div>
 
         </li>
+
+        <div class="formulario">
+            <button onclick="hideForm()"> X Fechar</button>
+            <script type="text/javascript" src="https://form.jotform.com/jsform/241971661647061"></script>
+        </div>
 
     </ul>
 </body>

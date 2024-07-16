@@ -83,6 +83,15 @@ button {
     margin: 15px 0;
 }
 
+.formulario {
+    width: 400px;
+    height: 50%;
+    position: fixed;
+    bottom: 300px;
+    left: -50%;
+    transition: 1.5s;
+}
+
 
 @media(max-width:768px) {
     
@@ -120,6 +129,8 @@ button {
         font-size: 10px;
     }
   }
+
+
 
 
 
