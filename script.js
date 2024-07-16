@@ -5,6 +5,6 @@ function showForm(){
 }
 
 function hideForm(){
-    formulario.style.left = "-50%"
+    formulario.style.left = "-150%"
 }
 

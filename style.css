@@ -73,6 +73,11 @@ button {
     cursor: pointer;
 }
 
+.btn-fechar {
+    z-index: 3;
+
+}
+
 .test-drive {
     background-color: rgba(255, 255, 255, .2);
 }
@@ -84,12 +89,14 @@ button {
 }
 
 .formulario {
+  
     width: 400px;
-    height: 50%;
+    height: 300px;
     position: fixed;
-    bottom: 300px;
-    left: -50%;
-    transition: 1.5s;
+    bottom: 200px;
+    left: -150%;
+    transition: 1.7s;
+
 }
 
 
@@ -128,6 +135,19 @@ button {
     .subtitulo {
         font-size: 10px;
     }
+
+    .formulario {
+        width: 300px;
+        bottom: 230px;
+        left: 300px;
+    }
+
+    .btn-fechar {
+        height: 20px;
+        width: 15px;
+    }
+
+
   }
 
 
